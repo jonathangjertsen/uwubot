@@ -1,0 +1,32 @@
+{
+    "inherit": null,
+    "replacements": [
+        {
+            "original": "s",
+            "replacements": ["th", "s", "s", "sd"]
+        },
+        {
+            "original": "S",
+            "replacements": ["Th", "S", "Ss"]
+        },
+        {
+            "original": "r",
+            "replacements": ["d", "w", "w", "w", "ww"]
+        },
+        {
+            "original": "R",
+            "replacements": ["Th", "W", "D"]
+        },
+        {
+            "original": ",",
+            "replacements": [" :PPP ", " UwU ", " XD ", "!!!!! ", " ^^ ", "ya~~", " nya~ "]
+        },
+        {
+            "original": ".",
+            "replacements": [" uwu ", " owo ", "O_O", "!!!!! ", " ^_^", " :3 ", " rawr X3 "]
+        }
+    ],
+    "emoji": ["🤣", "🤪", "😱", "😋", "😤", "👀"],
+    "emoji_prob": 0.05,
+    "case_prob": 0.05
+}

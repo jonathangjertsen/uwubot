@@ -2,19 +2,25 @@
 
 Reads tweets from a victim account, does some string manipulation to make it sound extremely stupid, and tweets the result
 
-# setup
-
-Set up a developer account and create a file called `secrets.txt` with lines in this order:
+# Setup
 
 ```
-api key ("consumer_key")
-api secret ("consumer_secret")
-bearer token
-access token key ("access_token")
-access token secret ("access_token_secret")
+pip install -r requirements.txt
 ```
 
-# example session
+Set up a developer account and create a file called `secrets.json` with credentials:
+
+```
+{
+    "consumer_key": "",
+    "consumer_key_secret": "",
+    "bearer_token": "",
+    "access_token": "",
+    "access_token_secret": ""
+}
+```
+
+# Example session
 
 Run the script with `-v` set to the username of the victim.
 You will be presented with the original and fucked up versions of each tweet.

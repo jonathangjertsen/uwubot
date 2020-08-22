@@ -1,0 +1,21 @@
+{
+    "inherit": "english.json",
+    "replacements": [
+        {
+            "original": "n ",
+            "replacements": ["nd "]
+        },
+        {
+            "original": "r",
+            "replacements": ["th", "dg", "l"]
+        },
+        {
+            "original": "R",
+            "replacements": ["Gdg"]
+        },
+        {
+            "original": "kj",
+            "replacements": ["sj", "skj"]
+        }
+    ]
+}
